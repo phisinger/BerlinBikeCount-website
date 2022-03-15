@@ -14,7 +14,8 @@ st.title("Cyclists Forecast Berlin")
 st.markdown("This website presents the forecasted number of cyclists at different locations in Berlin, Germany.  \n \
     On the left, you can select the select counting station and a Date for that you want to predict the number of cyclists.\
     Down, you see different information for this station: The predicted number of cyclists for this date, and some metrics to compare this number.  \n \
-    You find the whole code project containing data cleaning, data exploration and forecasting on my [GitHub repo](https://github.com/phisinger/BerlinBikeCount).  \n")
+    You find the whole code project containing data cleaning, data exploration and forecasting on my [GitHub repo](https://github.com/phisinger/BerlinBikeCount).  \n \
+    Disclaimer: Please note that this forecast is based on data from 2012 to 2020, so the years 2021 until 2024 are forecasted.")
 
 # Read in locations
 location_data = pd.read_csv("data/prepared-data/location_data.csv")
